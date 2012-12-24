@@ -1,0 +1,94 @@
+---
+abstract: 'A Task module for DWIM Perl L<http://dwimperl.com/>'
+author:
+  - 'Gabor Szabo <szabgab@cpan.org>'
+build_requires:
+  ExtUtils::MakeMaker: 6.59
+  Perl::Version: 1.011
+  Test::More: 0.42
+configure_requires:
+  ExtUtils::MakeMaker: 6.59
+distribution_type: module
+dynamic_config: 1
+generated_by: 'Module::Install version 1.06'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Task-DWIM-CPAN
+no_index:
+  directory:
+    - inc
+    - t
+requires:
+  CPAN: 1.9800
+  CPAN::DistnameInfo: 0.12
+  CPAN::Inject: 1.13
+  CPAN::Meta: 2.120921
+  CPAN::Meta::Requirements: 2.120351
+  CPAN::Meta::YAML: 0.004
+  CPAN::Reporter: 1.2003
+  CPAN::SQLite: 0.202
+  CPAN::Testers::Report: 1.999001
+  CPAN::Uploader: 0.103000
+  CPANPLUS: 0.9112
+  CPANPLUS::Dist::Build: 0.60
+  Carp::Always: 0.12
+  Carp::Assert: 0.20
+  Carp::Assert::More: 1.14
+  Carp::Clan: 6.04
+  Devel::NYTProf: 4.09
+  Exporter: 5.65
+  Exporter::Declare: 0.105
+  ExtUtils::Depends: 0.304
+  ExtUtils::MakeMaker: 6.62
+  ExtUtils::Manifest: 1.60
+  ExtUtils::ParseXS: 3.05
+  ExtUtils::XSpp: 0.1602
+  File::ShareDir: 1.03
+  File::ShareDir::Install: 0.04
+  MetaCPAN::API: 0.43
+  Modern::Perl: 1.20120130
+  Module::Build: 0.3800
+  Module::CoreList: 2.57
+  Module::Find: 0.11
+  Module::Implementation: 0.04
+  Module::Install: 1.04
+  Module::Install::ReadmeFromPod: 0.16
+  Module::Load: 0.22
+  Module::Load::Conditional: 0.46
+  Module::Manifest: 1.08
+  Module::Metadata: 1.000007
+  Module::Refresh: 0.17
+  Module::Runtime: 0.011
+  Module::ScanDeps: 1.07
+  PAR: 1.002
+  PAR::Dist: 0.48
+  PAR::Dist::FromPPD: 0.03
+  PAR::Dist::InstallPPD: 0.02
+  PAR::Repository::Client: 0.25
+  PAR::Repository::Query: 0.14
+  PPI: 1.215
+  PPI::HTML: 1.08
+  PPIx::EditorTools: 0.15
+  PPIx::Regexp: 0.025
+  PPIx::Utilities::Node: 1.001000
+  Perl::Critic: 1.117
+  Perl::Tidy: 20101217
+  Perl::Version: 1.011
+  Pod::Abstract: 0.20
+  Pod::Coverage: 0.22
+  Pod::Eventual: 0.093330
+  Pod::Functions: 0
+  Pod::POM: 0.27
+  Pod::Perldoc: 3.15
+  Pod::Readme: 0
+  Pod::Simple: 3.23
+  Pod::Simple::XHTML: 3.04
+  Software::License: 0.103004
+  Sort::Versions: 1.5
+  perl: 5.008
+resources:
+  license: http://dev.perl.org/licenses/
+  repository: https://github.com/dwimperl/Task-DWIM
+version: 0.07
